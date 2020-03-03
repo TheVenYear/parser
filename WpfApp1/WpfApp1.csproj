@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{55097CEF-C7EA-40B4-B311-57B9AB703473}</ProjectGuid>
+    <ProjectGuid>{4C2EB25D-E421-4A5F-8B14-7E4D52E8B530}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>WpfShow</RootNamespace>
-    <AssemblyName>WpfShow</AssemblyName>
+    <RootNamespace>WpfApp1</RootNamespace>
+    <AssemblyName>WpfApp1</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -95,9 +95,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\parser\parser.csproj">
-      <Project>{ba2bf817-6149-4c18-aa2b-60144f351ca0}</Project>
-      <Name>parser</Name>
+    <ProjectReference Include="..\ParserLibrary\ParserLibrary.csproj">
+      <Project>{6ddc55ad-0f75-43ba-a34d-1a74a13420b1}</Project>
+      <Name>ParserLibrary</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
